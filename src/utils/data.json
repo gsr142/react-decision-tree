@@ -1,0 +1,89 @@
+{
+  "question": "What's your favourite animal?",
+  "answers": [
+    {
+      "answer": "Dog",
+      "subquestion": {
+        "question": "Do you like being licked in the face?",
+        "answers": [
+          {
+            "answer": "Yes",
+            "subquestion": {
+              "question": "Where's the best place to walk a dog?",
+              "moreInfo": {
+                "title": "What constitutes a walk?",
+                "text": "Walking a dog is a shorthand to mean taking it outside to relive itself, play, run or indeed walk. Walks can be any length of time, and are expected to take place outdoors. A backyard or balcony is not considered a walk."
+              },
+              "answers": [
+                {
+                  "answer": "A park",
+                  "result": {
+                    "text": "<p><strong>Good human!</strong> Sounds like you'll make for an excellent dog friend. <a href='https://www.ecosia.org/images?q=dog' rel='noopener noreferrer'>Click here</a> to see some photos of dogs as a treat *pat pat*</p>"
+                  }
+                },
+                {
+                  "answer": "Around the block",
+                  "result": {
+                    "text": "<p><strong>Good human!</strong> Sounds like you'll make for an excellent dog friend. <a href='https://www.ecosia.org/images?q=dog' rel='noopener noreferrer'>Click here</a> to see some photos of dogs as a treat *pat pat*</p>"
+                  }
+                },
+                {
+                  "answer": "At a mall",
+                  "result": {
+                    "text": "<p><strong>Bad human!</strong> Dogs like being outside, and dogs can't wear most of the things available at a mall anyway.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "answer": "No",
+            "result": {
+              "text": "<p><strong>It sounds like you might not like dogs very much.</strong> Dogs love you, why don't you love them back? Here is a <a href='https://www.ecosia.org/images?q=dog' rel='noopener noreferrer'>link</a> to see some images of dogs not licking you.</p>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "answer": "Cat",
+      "subquestion": {
+        "question": "Do you like being meowed at?",
+        "answers": [
+          {
+            "answer": "Yes",
+            "result": {
+              "text": "Sounds like you'll make for an excellent cat friend."
+            }
+          },
+          {
+            "answer": "No",
+            "result": {
+              "text": "It sounds like you might not like cats very much."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "answer": "Elephant",
+      "subquestion": {
+        "question": "Do you like giant, loud animals?",
+        "answers": [
+          {
+            "answer": "Yes",
+            "result": {
+              "text": "Sounds like you'll make for an excellent elephant friend."
+            }
+          },
+          {
+            "answer": "No",
+            "result": {
+              "text": "It sounds like you might not like elephants very much."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
